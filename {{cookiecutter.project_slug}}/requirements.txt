@@ -1,4 +1,6 @@
 fastapi
+uvicorn
+python-dotenv
 autopep8
 pytest
-uvicorn
+
