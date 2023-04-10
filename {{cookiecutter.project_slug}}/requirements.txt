@@ -1,0 +1,4 @@
+fastapi
+autopep8
+pytest
+uvicorn

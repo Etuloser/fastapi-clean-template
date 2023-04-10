@@ -1,0 +1,9 @@
+# ide settings
+.vscode/
+# virtualenv environment
+venv/
+.venv/
+# Ignore dynaconf secret files
+.secrets.*
+# byte comiled
+__pycache__/
