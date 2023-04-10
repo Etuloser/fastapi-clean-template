@@ -4,7 +4,7 @@ from pydantic import (BaseSettings, AnyHttpUrl)
 
 
 class Settings(BaseSettings):
-    PORT: int = "{{ cookiecutter.project_port}}"
+    PORT: int = {{ cookiecutter.project_port}}
     BACKEND_CORS_ORIGINS: list[AnyHttpUrl] = []
 
 
