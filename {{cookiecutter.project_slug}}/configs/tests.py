@@ -1,6 +1,6 @@
 import pytest
 
-from .settings import settings
+from configs.settings import settings
 
 
 class Test:

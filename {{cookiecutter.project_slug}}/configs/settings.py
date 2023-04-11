@@ -16,7 +16,7 @@ class ProductionSettings(Settings):
     pass
 
 
-if os.getenv("environment") is "production":
+if os.getenv("environment") == "production":
     settings = ProductionSettings()
 else:
     settings = DevelopmentSettings()

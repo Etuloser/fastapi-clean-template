@@ -1,7 +1,7 @@
 from dependency_injector import containers, providers
 
-from pkg.mysql import Database
-from .settings import settings
+from configs.settings import settings
+from pkg.mysql.database import Database
 
 
 class Containers(containers.DeclarativeContainer):

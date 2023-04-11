@@ -5,8 +5,8 @@ from sqlalchemy import engine_from_config
 from sqlalchemy import pool
 from sqlmodel import SQLModel
 
-from configs import settings
-from internal.entity import User
+from configs.settings import settings
+from internal.entity.user import User
 
 
 # this is the Alembic Config object, which provides
