@@ -2,7 +2,8 @@
     "editor.fontLigatures": true, // 是否启用字体连字
     "editor.fontSize": 14, //设置字体大小
     "editor.fontWeight": "normal", //设置字体粗细
-    "editor.tabSize": 4,
+    "editor.tabSize": 2,
+    "editor.fontFamily": "Consolas,'微软雅黑', 'Courier New', monospace",
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
